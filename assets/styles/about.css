@@ -1,7 +1,41 @@
-.about .row .content{
-    font-size: 1.5rem;
-    color:#9999;
-    padding: 5rem 0;
-    padding-top: 1rem;
+.about {
+    width: 80%;
+    margin: 50px auto;
+    
+    
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: var(--primary-color);
+    margin: 10px auto;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    }
 
+
+.about-content {
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(112, 103, 103);
+
+}
+.about-content h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.about-content p{
+    padding: 15px;
+
+}
+
+@media only screen and (max-width: 640px){
+
+    .about-conten {
+        width: 100%;
+    }
 }

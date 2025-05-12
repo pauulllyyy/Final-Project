@@ -19,7 +19,7 @@ xl: 1280px -- larger wide desktop size
 @import "footer.css";
 @import "contact.css";
 @import "submission.css";
-@import "reviews.css";
+@import "booking.css";
 
 
 *{
@@ -48,4 +48,11 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 
+}
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        width: 100%;
+    }
 }
