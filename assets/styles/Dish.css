@@ -18,7 +18,7 @@
 .dish-content {
     text-align: center;
     font-size: 4vmin;
-    color: rgb(112, 103, 103);
+    color: rgb(22, 22, 22);
 
 }
 .dish-content h1{
@@ -39,6 +39,9 @@
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    background-image: url(../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
     
 
@@ -46,27 +49,25 @@
 
 .Names {
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
-    color: #ff4d4d;
+    color: #ffffff;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .box {
     flex:1 1 25px;
-    max-width: 300px;
-    min-width: 250px;
+    max-width: px;
+    min-width: 2px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     text-align: center;
     padding: 15px;
-   
     border-radius: 10px;
-    background-color: white;
-    margin-bottom: 20px;
+    margin-bottom: px;
     margin-top: 15px;
     position: relative;
 
