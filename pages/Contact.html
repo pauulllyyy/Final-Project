@@ -15,49 +15,63 @@
             <label for="menu-toggle" class="menu-btn">☰</label>
         <ul class="nav-links">
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./pages/About.html">About</a></li>
-            <li><a href="./pages/Menu.html">Menu</a></li>
-            <li><a href="./pages/Pages.html">Pages</a></li>
-            <li><a href="../Contact.html">Contact</a></li>
+            <li><a href="./About.html">About</a></li>
+            <li><a href="./Menu.html">Menu</a></li>
+            <li><a href="./Contact.html">Contact</a></li>
         </ul>
         </div>
     </nav>
-
-    <!--Hero Sectiom-->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Best food for<br>your taste</h1>
-                <p>Discover delectable cusine and unforgetable moments in our welcoming, culinary haven</p>
-                </p>
-                <div class="hero-btns">
-                <a href="#" class="btn">Book a Table</a>
-                <a href="#" class="btn btn-outline">Explore Menu</a>
-            </div>
-            </div>
-
-        </div>
-    </section>
-
+        
     <!-- Dishes Section-->
     <section class="Dish">
         <div class="container">
             <div class="dish-content">
-                <h1>Delicious Dishes</h1>
+                <h1>Contact Us</h1>
                 <div class="line"></div>
             </div>
-            <div class="scroll-container">
-                <div class="wrapper">
-                <img src="../assets/images/adobo.jpg" alt="">
-                <img src="../assets/images/bihon.jpg" alt="">
-                <img src="../assets/images/inasal.jpg" alt="">
-                <img src="../assets/images/kaldereta.jpg" alt="">
-                <img src="../assets/images/sisig.jpg" alt="">
+
+            <!--Contact section-->
+            <main>
+    <section id="contact">
+      <div class="container">
+        <h1>Send a Message</h1>
+
+        <form action="./submission.html">
+          <div class="fullname">
+            <div class="form-group">
+              <label for="firstName">First name</label>
+              <input id="firstName" type="text" placeholder="Enter your first name" required>
             </div>
+
+            <div class="form-group">
+              <label for="lastName">Last name</label>
+              <input id="lastName" type="text" placeholder="Enter your last name" required>
             </div>
-            </div>
-        </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter your email address" required>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input id="subject" type="text" placeholder="Email subject" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Enter your message..." required></textarea>
+          </div>
+
+          <a href="./submission.html" class="btn">send message</a>
+        </form>
+      </div>
     </section>
-   </section>
+  </main>
+
+           
 </body>
+
 </html>
+           

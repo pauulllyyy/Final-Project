@@ -15,6 +15,12 @@ xl: 1280px -- larger wide desktop size
 @import "about.css";
 @Import "Dish.css";
 @import "food.css";
+@import "about.css";
+@import "footer.css";
+@import "contact.css";
+@import "submission.css";
+@import "reviews.css";
+
 
 *{
     padding: 0;
